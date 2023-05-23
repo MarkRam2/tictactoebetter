@@ -38,7 +38,7 @@ function TBoard({ xIsNext = true, squares = Array(27).fill(null), onPlay }) {
     return (
         <div className="grid grid-cols-1">
             <div className="">
-                <div className="status ">{status}</div>
+                <div className="status font-semibold">{status}</div>
                 <div className="">
                     <div className="">
                         <div className="board-row">
